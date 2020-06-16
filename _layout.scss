@@ -1,0 +1,16 @@
+@import "./defaults";
+
+section {
+	margin: auto;
+    text-align: center;
+    width: auto;
+}
+
+input {
+    width: 100%;
+    height: $row-height;
+    background-color: gainsboro;
+    border: none;
+    text-align: center;
+}
+

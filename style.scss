@@ -1,0 +1,32 @@
+@import "./defaults";
+
+* {
+    margin: 0;
+}
+
+/* Make responsive */
+@media screen and (max-width: $phone) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: $phone) and (max-width: $tablet) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: $tablet) and (max-width: $desktop) {
+    body {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    body {
+        font-size: 1em;
+    }
+}
+
+@import "_list", "_layout"
